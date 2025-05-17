@@ -1,12 +1,17 @@
-# Project Name
-This project is ________. (Describe the main goals of the project. Limit to 1-2 sentences)
+# CNN Image Classifier
 
-## Description
-Optional section to provide a more detailed overview of the project.
+A simple Convolutional Neural Network using TensorFlow/Keras to classify grayscale image data.
 
-## Get Started
-This section should be used to summarize the project and how to get started after cloning. Once this section 
-is edited, it will show up on the Project Dashboard tab. 
+## Files
+- `cnn_classifier.ipynb`: Jupyter notebook containing all the code.
+- `requirements.txt`: Python dependencies.
 
-If you completely delete this section, the "Get Started" widget will be removed from the Project Dashboard.
+## Features
+- Two Conv2D layers + Dense output.
+- One-hot label encoding.
+- Evaluates classification accuracy.
 
+## Installation
+
+```bash
+pip install -r requirements.txt
